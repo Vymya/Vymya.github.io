@@ -1,0 +1,97 @@
+.productImg {
+    justify-self: center;
+    width: 200px;
+}
+  
+.productTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price {
+    color: gray;
+    font-weight: bold;
+}
+
+.productItem {
+    display: grid;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 0 15px 30px 15px;
+}
+
+.productItem p {
+    margin: 5px 0 5px 0;
+}
+
+.productPrice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.productButton {
+    justify-self: end;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px 6px 10px;
+    cursor: pointer;
+}
+
+.productButton img {
+    width: 15px;
+}
+
+.productButtonChange {
+    justify-self: end;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px 6px 10px;
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+    transform: rotate(360deg);
+}
+
+.productButtonChange img {
+    width: 15px;
+}
+
+/* Кнопка Добавить в избранное */
+
+.favouriteButton {
+    border: 0;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    padding: 7px;
+    font-size: 14px;
+    text-align: start;
+    width: fit-content;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.favouriteButton:hover {
+    transform: translateX(20px);
+}
+
+.favouriteButtonChange {
+    border: 0;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 14px;
+    text-align: start;
+    width: fit-content;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.favouriteButtonChange:hover {
+    transform: translateX(20px);
+}

@@ -1,0 +1,61 @@
+.productSection {
+    max-width: 80%;
+    margin: 0 auto; /*выравнивает текст по центру*/
+}
+  
+.productSection h2 {
+    text-align: center;
+}
+  
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+  
+/* Поиск */
+  
+.search {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    margin: 0 3% 0 3%;
+}
+  
+.search h2 {
+    justify-self: start;
+    font-size: 32px;
+}
+  
+.searchBlock {
+    text-align: center;
+    justify-self: end;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 15px;
+    width: 210px;
+}
+  
+.searchBlock:hover {
+    border: 1px solid gray;
+}
+  
+.searchBlock img {
+    width: 13px;
+    margin-right: 15px;
+}
+  
+.searchBlock input {
+    border: none;
+    font-size: 14px;
+    width: 60%;
+}
+  
+    /* решение с гугла, чтобы текст плейсхолдера был по центру, а инпут оставался слева */
+::-webkit-input-placeholder {
+    text-align: center;
+}
+  
+.searchBlock input:focus-visible {
+    outline: none;
+    /* border-bottom: 1px solid gray; */
+}

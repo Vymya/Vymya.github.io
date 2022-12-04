@@ -1,0 +1,66 @@
+.fullBannerSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: c;
+  }
+  
+  .bannerSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 50px 0 50px 50px;
+  }
+  
+  .banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    align-items: center;
+    background-image: url("/public/img/banner2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 100px 25px;
+    border-radius: 25px;
+  }
+  
+  .bannerText {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .bannerText span {
+    color:#001AFF;
+  }
+  
+  .bannerButton {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 25px 20px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bannerButton:hover {
+    box-shadow: 5px 5px 20px 0px black;
+  }
+  
+  .bannerButton:active {
+    background-color: white;
+    color: #001AFF;
+  }
+  
+  .textSection {
+    max-width: 80%;
+    margin: 0 auto; /*выравнивает по центру*/
+    margin-bottom: 50px;
+  }
+  
+  .textSection h2 {
+    text-align: center;
+  }
